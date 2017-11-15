@@ -1,15 +1,12 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Feb 25 22:58:54 2017
+############################################################################################################
+#Created on Sat Feb 25 22:58:54 2017
+#@author: chinmay deval
+#Object: The script can be used to merge raster tiles together. The general directory tree structure and 
+#actual filename for which script was written goes like: ~/testdata/h*v*/test_01.01.2003.tif
+############################################################################################################
 
-@author: chinmay
-
-The script can be used to merge raster tiles together.
-"""
 import os
-
-"""The general directory tree structure and actual filename for which script was written goes like: 
-~/testdata/h*v*/test_01.01.2003.tif"""
 
 """list different tile folders from which tiles need to me merged"""
 
